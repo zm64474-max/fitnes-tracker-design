@@ -34,6 +34,17 @@ DECLARE View Activity Summary
 DECLARE Exit
 
 --- CARDIO MENU ---
-DECLARE Running / Jogging
-DECLARE Cycling
-DECLARE Swimming
+DECLARE "1. Running / Jogging"
+DECLARE "2. Cycling"
+DECLARE "3. Swimming"
+
+
+
+       DISPLAY "Enter duration in minutes:"
+       INPUT duration 
+       WHILE duration < 0
+       DISPLAY "Invalid. Please enter minutes >= 0:"
+       END WHILE 
+
+
+total_cardio = total_cardio 
