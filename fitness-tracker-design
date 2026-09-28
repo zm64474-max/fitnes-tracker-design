@@ -24,5 +24,16 @@
 
 ---
 
+==========================================
+        PERSONAL FITNESS TRACKER            
+==========================================
+--- MAIN MENU ---
+DECLARE Log Cardio Workout
+DECLARE Log Strength Workout
+DECLARE View Activity Summary
+DECLARE Exit
 
-
+--- CARDIO MENU ---
+DECLARE Running / Jogging
+DECLARE Cycling
+DECLARE Swimming
